@@ -1,0 +1,10 @@
+server:
+  port: 8080
+rocketmq:
+  producer:
+    groupName: test_producer_group
+    namesrvAddr:  10.213.3.125:9876
+    topic:  test_topic
+    tag: test_tag
+
+

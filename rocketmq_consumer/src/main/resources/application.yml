@@ -1,0 +1,9 @@
+server:
+  port: 8081
+rocketmq:
+  consumer:
+    groupName: test_consumer_group
+    namesrvAddr:  10.213.3.125:9876
+    instanceName: good
+
+
